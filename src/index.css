@@ -1,0 +1,53 @@
+
+:root{
+  --primarry-color: #90a959;
+  --secondary-color: #E9B872;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainRed: #C45151;
+  --mainGreen: #4CAF50;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--secondary-color);
+  color: var(--mainBlack);
+
+}
+
+h1{
+  margin: 1rem 0;
+}
+
+.btn{
+  text-decoration: none;
+  color: var(--mainWhite);
+  background-color: var(--primarry-color);
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  outline: 0;
+  border: none;
+  border-radius: 2px;
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.24);
+  transition: all 0.3s linear;
+  align-items: center;
+}
+
+.btn:hover{
+  box-shadow: 0 14px 26px -12px rgba(0,0,0,0.42), 0 4px 23px 0px rgba(0,0,0,0.12), 0 10px 10px -5px rgba(0,0,0,0.22);
+}
+
+.btn-icon{
+  margin-left: 0.75rem;
+  font-size: 1.2rem;
+}
