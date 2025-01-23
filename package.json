@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nextheaven89.github.io/react_calculate",
-  "scripts": {
+   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
